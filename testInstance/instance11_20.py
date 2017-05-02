@@ -39,10 +39,43 @@ def instance13_test1():
 instance14 分解质因数
 '''
 def instance14_test1(n):
-    pass
+    if n in[1]:
+        print '{}'.format(n)
+    while n not in [1]:
+        for index in xrange(2,n+1):
+            if n%index==0:
+                n /=index
+                if n==1:
+                    print index
+                else:
+                    # print '{} *'.format(index),
+                    print '%d *'%index,
+                break
 
+'''
+instance15
+'''
+def instance15_test1(n):
+    if n>=90:
+        print 'A'
+    else:
+        print ('C','B')[n>=60]
+
+'''
+instance16 输出指定格式的日期
+'''
+def instance16_test1():
+    import datetime
+    print (datetime.datetime.today().strftime('%d/%m/%y'))
+    #创建日期对象
+    a=datetime.date(1949,10,1)
+    print a.strftime('%Y-%m-%d')
+    a=a+datetime.timedelta(days=30)
+    print a.strftime('%Y-%m-%d')
+    a=a.replace(year=a.year)
+    print a.strftime('%Y-%m-%d')
 
 
 
 if __name__ == '__main__':
-    instance13_test1()
+    instance16_test1()
