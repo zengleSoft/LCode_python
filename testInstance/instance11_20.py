@@ -75,7 +75,69 @@ def instance16_test1():
     a=a.replace(year=a.year)
     print a.strftime('%Y-%m-%d')
 
+'''
+instance17
+'''
+def instance17_test1():
+    import string
+    str=raw_input('input a string：\n')
+    letters,space,digit,other=0,0,0,0
+    for c in str:
+        if c.isalpha():
+            letters+=1
+        elif c.isspace():
+            space +=1
+        elif c.isdigit():
+            digit+=1
+        else:
+            other+=1
+    print 'letters=%d,space=%d,dight=%d,other=%d'%(letters,space,digit,other)
 
+'''
+instance18
+'''
+def instance18_test1():
+    Tn=0
+    Sn=[]
+    n=int(raw_input('n='))
+    a=int(raw_input('a='))
+    for count in range(n):
+        Tn += a
+        a *= 10
+        Sn.append(Tn)
+        print Tn
+    Sn=reduce(lambda x,y:x+y,Sn)
+    print '和：',Sn
+
+'''
+instance19
+'''
+def instance19_test1():
+    for i in range(3,1001):
+        sum=0
+        for j in range(1,i):
+            if(i%j==0):
+                sum+=j
+        if(sum==i):
+            print i
+
+'''
+instance20
+'''
+def instance20_test1():
+    hei=100.0 #起始高度
+    tim=10    #次数
+    height=[]   #记录反弹高度
+    tour=[]     #记录落地高度
+    for i in range(1,tim+1):
+        if(i==1):
+            tour.append(hei)
+        else:
+            tour.append(2*hei)
+        hei /=2
+        height.append(hei)
+    print '总高度：tour={0}'.format(sum(tour))
+    print '第十次反弹高度：height={0}'.format(height[-1])
 
 if __name__ == '__main__':
-    instance16_test1()
+    instance20_test1()
