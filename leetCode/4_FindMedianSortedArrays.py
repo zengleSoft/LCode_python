@@ -12,7 +12,7 @@ def findMedianSortedArrays(nums1,nums2):
     len1,len2 = len(nums1),len(nums2)
     #找出第num大的数
     num = (len1+len2)/2+1
-    #x，y记录nums1和nums2遍历位置  target记录当前数   befire记录比target小一个的数
+    #x，y记录nums1和nums2遍历位置  target记录当前数   before记录比target小一个的数
     x,y,target,before = 0,0,0,0
     for i in range(num):
         #记录上一个数
@@ -30,7 +30,7 @@ def findMedianSortedArrays(nums1,nums2):
         else:
             target = nums2[y]
             y += 1
-    #如果两列表元素个数和是奇数  那么直接去target就行了  before不用管
+    #如果两列表元素个数和是奇数  那么直接取target就行了  before不用管
     if (num-1)*2<len1+len2:
         before = target
     return (before+target)/2.0
