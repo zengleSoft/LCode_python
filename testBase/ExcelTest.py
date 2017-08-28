@@ -48,4 +48,4 @@ def readWriteTest():
 
 
 if __name__ == '__main__':
-    readWriteTest()
+    readExcelTest()

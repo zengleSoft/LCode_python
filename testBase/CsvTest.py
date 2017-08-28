@@ -8,7 +8,7 @@ def readCsv():
         # 行读  每行返回一个列表
         for row in csv_reader:
             print row
-    # 地区指定行
+    # 读取指定行
     with open('D://csvTest.csv','r') as f:
         csv_reader = csv.reader(f)
         for i,row in enumerate(csv_reader):

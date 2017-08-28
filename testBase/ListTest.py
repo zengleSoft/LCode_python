@@ -39,6 +39,8 @@ def listTest():
     # 弹出索引处元素  默认最后一个元素
     print list.pop(2)
     print list
+    # 判断列表中是否有某元素
+    print 'a' in list
 
 def dicTest():
     dict={'a':1,'v':32,34:'xx'}
@@ -87,4 +89,4 @@ def setTest():
 
 
 if __name__ == '__main__':
-    setTest()
+    listTest()
