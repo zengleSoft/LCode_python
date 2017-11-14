@@ -41,6 +41,9 @@ def listTest():
     print list
     # 判断列表中是否有某元素
     print 'a' in list
+    # 遍历索引和元素
+    for index,elem in enumerate(list):
+        print index,elem
 
 def dicTest():
     dict={'a':1,'v':32,34:'xx'}
@@ -85,6 +88,8 @@ def setTest():
     print s1 | s2
     # 差集
     print s1 - s2
+    # set转list
+    print list(s)
 
 
 
