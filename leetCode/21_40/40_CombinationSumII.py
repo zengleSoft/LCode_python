@@ -44,24 +44,18 @@ class Solutions(object):
                 tmpList.pop()
 
     def combinationSum3(self, candidates, target):
-        candidates.sort()
-        dp = [[[]]] + [[] for _ in candidates]
-        for t in range(1, target + 1):
-            duplicate = False
-            for val in candidates:
-                if val > t:
-                    break;
-                elif val == t and not duplicate:
-                    dp[t].append([val])
-                    duplicate = True
-                elif val < t:
-                    for L in dp[t - val]:
-                        if not L or L[-1] <= val:
-                            # dp[t] = dp[t] + L + [val]
-                            dp[t] += L + [val],
-        return dp[target]
+        pass
 
+    def combinationSum4(self,candidates,target):
+        candidates.sort()
+        dp = [set() for i in xrange(target + 1)]
+        dp[0].add(())
+        for num in candidates:   # 以candidates为外层循环 避免
+            for t in xrange(num,target+1):  # 反向循环 避免元素多次使用
+                for prev in dp[t - num]:
+                    dp[t].add(prev + (num,))  # set中添加元祖  去重
+        return list(dp[-1])
 
 if __name__ == '__main__':
     self = Solutions()
-    print self.combinationSum2([10, 7, 6, 5, 2, 1, 1], 8)
+    print self.combinationSum4([10, 7, 6, 5, 2, 1, 1], 8)
