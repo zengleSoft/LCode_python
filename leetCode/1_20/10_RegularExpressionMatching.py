@@ -25,10 +25,10 @@ isMatch("aab", "c*a*b") ? true
 转移方程：
 
     pj为alpha:
-        si=pj:d[i,j]=d[i−1,j−1]
-        si≠pj:d[i,j]=0
+        si=pj : d[i,j]=d[i−1,j−1]
+        si≠pj : d[i,j]=false
     pj=∗:
-        si=pj−1或pj−1=. : d[i,j]=d[i,j−2]||d[i−1,j] （分别代表：pj−1∗匹配空字符，匹配si，匹配至少1个。
+        si=pj−1或pj−1=. : d[i,j]=d[i,j−2] || d[i,j-1] || d[i−1,j]    (pj−1)∗分别代表： 匹配空字符，匹配1个si，匹配多个si(看和si之前的能否匹配  aa a*)。
         si≠pj−1且pj−1≠. : d[i,j]=d[i,j−2]（即si不能匹配当前的x*，那么我们直接认为x*为空字符）。
     pj=.:
         d[i,j]=d[i−1,j−1]
@@ -59,4 +59,4 @@ def isMatch(s, p):
 
 
 if __name__ == '__main__':
-    print isMatch('aab','c*a*b')
+    print isMatch('','')
