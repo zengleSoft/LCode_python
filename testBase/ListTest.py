@@ -2,9 +2,14 @@
 # -*- coding: UTF-8 -*-
 
 def tupleTest():
-    # 只有一个元素时需要添加都好来消除歧义
+    # 只有一个元素时需要添加逗号来消除歧义
     t1 = (1,)
     print t1[0]
+    t2 = (2,)
+    t3 = t1 + t2
+    print t3
+
+
     # 截取操作 可字符串操作类似
     t2 = (1,2,3,'a')
     print t2[::-1]
@@ -73,7 +78,7 @@ def dicTest():
 def setTest():
     s = set('abdbb')
     print s
-    # 添加元素
+    # 添加元素  只能添加不可变元素
     s.add('acd')
     print s
     # update是把元素拆开插入
@@ -94,4 +99,4 @@ def setTest():
 
 
 if __name__ == '__main__':
-    listTest()
+    tupleTest()
