@@ -49,5 +49,5 @@ def generateParenthesis3(n,open=0):
 
 
 if __name__ == '__main__':
-    print generateParenthesis3(3)
+    print(generateParenthesis2(3))
 

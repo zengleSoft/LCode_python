@@ -15,7 +15,7 @@ def isValid(s):
         if i in dic:
             tmp.append(i)
         else:
-            if not tmp or i<>dic.get(tmp.pop()):
+            if not tmp or i != dic.get(tmp.pop()):
                 return False
     if not tmp:
         return True
@@ -23,4 +23,4 @@ def isValid(s):
         return False
 
 if __name__ == '__main__':
-    print isValid('()')
+    print (isValid('()'))

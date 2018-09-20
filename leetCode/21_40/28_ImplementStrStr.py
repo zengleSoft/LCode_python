@@ -20,4 +20,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     self = Solution()
-    print self.strStr('a','a')
+    print (self.strStr('a','a'))

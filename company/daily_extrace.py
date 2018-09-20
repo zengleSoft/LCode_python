@@ -8,10 +8,7 @@ import os
 import sys
 import datetime;
 import hashlib
-import paramiko
 
-reload(sys)
-sys.setdefaultencoding("utf-8")
 
 cur_date = datetime.datetime.now()
 
@@ -100,6 +97,5 @@ def parse_args():
 
 if __name__ == '__main__':
     option = parse_args()
-    print option
     # extract_low(option.date)
     # transfer(option.date)

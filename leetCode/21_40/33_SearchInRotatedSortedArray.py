@@ -44,7 +44,7 @@ class Solutions(object):
     def findMinIndex(self,nums):
         midIndex, start, end = 0, 0, len(nums) - 1
         while start < end:
-            midIndex = start + (end - start) / 2  # midIndex有可能和start一直相等 陷入死循环
+            midIndex = start + (end - start) // 2  # midIndex有可能和start一直相等 陷入死循环
             # midIndex要和end比 因为midIndex和end始终不会相等
             if nums[midIndex] > nums[end]:
                 start = midIndex + 1
@@ -57,4 +57,4 @@ class Solutions(object):
 
 if __name__ == '__main__':
     self = Solutions()
-    print self.search2([3,1],1)
+    print (self.search2([3,1],1))

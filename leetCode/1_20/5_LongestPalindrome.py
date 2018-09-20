@@ -90,5 +90,5 @@ def longestPalindrome2(s):
 
 
 if __name__ == '__main__':
-    print longestPalindrome2('babcbabcbaccba')
-    print longestPalindrome('babcbabcbaccba')
+    print (longestPalindrome2('babcbabcbaccba'))
+    print (longestPalindrome('babcbabcbaccba'))

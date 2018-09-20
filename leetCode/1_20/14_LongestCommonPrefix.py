@@ -59,4 +59,4 @@ if __name__ == '__main__':
     #     print a
     # print zip(*s)
     # print s
-    print set(('x','x','d'))
+    print (set(('x','x','d')))

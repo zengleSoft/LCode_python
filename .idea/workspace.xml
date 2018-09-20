@@ -1,100 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py" line="54" />
-    <bookmark url="file://$PROJECT_DIR$/testBase/FileTest.py" line="54" />
-    <bookmark url="file://$PROJECT_DIR$/testBase/FileTest.py" line="49" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="6d9ab755-a3b7-47fd-9998-537b376f59a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetCode/21_40/31_NextPermutation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testBase/Sudoku.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testInstance/TestCase.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py" afterPath="$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testBase/ListTest.py" afterPath="$PROJECT_DIR$/testBase/ListTest.py" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStruct/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStruct/maxSubSeqSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStruct/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/41_60/42_TrappingRainWater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/string/5_LongestPalindromicSubstring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/string/67_AddBinary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/string/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/weekly/907" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/weekly/907_sumSubarrayMins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/weekly/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBase/BigNumMultiplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBase/TestCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBase/TestListNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBase/TestTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBase/numpyTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testBase/tmpPy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worm/Https.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worm/TestGet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worm/TestWorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/GenerateUploadStatisticsFail.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/GenerateUploadStatisticsFail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/Tmp_Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/Tmp_Task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/daily_extrace.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/daily_extrace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/daily_extrace_bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/daily_extrace_bak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel/Excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/10_RegularExpressionMatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/10_RegularExpressionMatching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/11_ContainerWithMostWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/11_ContainerWithMostWater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/12_IntegerToRoman.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/12_IntegerToRoman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/13_RomanToInteger.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/13_RomanToInteger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/15_3Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/15_3Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/16_3SumClosest.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/16_3SumClosest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/17_LetterCombinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/17_LetterCombinations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/18_4Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/18_4Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/19_RemoveNthFromEnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/19_RemoveNthFromEnd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/1_TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/1_TwoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/20_ValidParentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/20_ValidParentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/2_AddTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/2_AddTwoNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/3_LengthOfLongestSubstring.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/3_LengthOfLongestSubstring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/4_FindMedianSortedArrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/4_FindMedianSortedArrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/6_ZigZagConversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/6_ZigZagConversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/7_ReverseInteger.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/7_ReverseInteger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/8_StringToInteger.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/8_StringToInteger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/9_PalindromeNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/9_PalindromeNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/1_20/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/1_20/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/21_MergeTwoSortedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/21_MergeTwoSortedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/23_MergeKSortedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/23_MergeKSortedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/24_SwapNodesInPairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/24_SwapNodesInPairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/25_ReverseNodesInK-Group.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/25_ReverseNodesInK-Group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/26_RemoveDuplicatesFromSortedArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/26_RemoveDuplicatesFromSortedArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/27_RemoveElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/27_RemoveElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/28_ImplementStrStr.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/28_ImplementStrStr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/29_DivideTwoIntegers.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/29_DivideTwoIntegers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/31_NextPermutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/31_NextPermutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/33_SearchInRotatedSortedArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/33_SearchInRotatedSortedArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/34_SearchForRange.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/34_SearchForRange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/35_SearchInsertPosition.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/35_SearchInsertPosition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/36_ValidSudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/36_ValidSudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/37_SudokuSolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/37_SudokuSolver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/38_CountAndSay.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/38_CountAndSay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/39_CombinationSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/39_CombinationSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/40_CombinationSumII.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/40_CombinationSumII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/21_40/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/21_40/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/41_FirstMissingPositive.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/41_FirstMissingPositive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/43_MultiplyStrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/43_MultiplyStrings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/44_WildcardMatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/44_WildcardMatching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/45_JumpGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/45_JumpGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/46_Permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/46_Permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/47_PermutationsII.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/47_PermutationsII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/48_RotateImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/48_RotateImage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/49_GroupAnagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/49_GroupAnagrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/50_Pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/50_Pow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/41_60/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/41_60/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortTest/BubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortTest/BubbleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortTest/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortTest/QuickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortTest/SelectSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortTest/SelectSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortTest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/CsvTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/CsvTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/ExcelTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/ExcelTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/FileTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/FileTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/FlagProblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/FlagProblem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/IntervalTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/IntervalTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/ListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/ListTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/StringTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/StringTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/Sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/Sudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testBase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testBase/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInstance/TestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/testInstance/TestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInstance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testInstance/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInstance/instance11_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/testInstance/instance11_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInstance/instance1_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/testInstance/instance1_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInstance/instance31_40.py" beforeDir="false" afterPath="$PROJECT_DIR$/testInstance/instance31_40.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testInstance/instance41_50.py" beforeDir="false" afterPath="$PROJECT_DIR$/testInstance/instance41_50.py" afterDir="false" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetCode$2_AddTwoNumbers.coverage" NAME="2_AddTwoNumbers Coverage Results" MODIFIED="1499576211419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1493219067468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sortTest" />
-    <SUITE FILE_PATH="coverage/LeetCode$ListTest.coverage" NAME="ListTest Coverage Results" MODIFIED="1504434535804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
-    <SUITE FILE_PATH="coverage/LeetCode$Excel.coverage" NAME="Excel Coverage Results" MODIFIED="1497102192738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
-    <SUITE FILE_PATH="coverage/LeetCode$3_LengthOfLongestSubstring.coverage" NAME="3_LengthOfLongestSubstring Coverage Results" MODIFIED="1500122369421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$5_LongestPalindrome.coverage" NAME="5_LongestPalindrome Coverage Results" MODIFIED="1500729008283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$ExcelTest.coverage" NAME="ExcelTest Coverage Results" MODIFIED="1503929081341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
-    <SUITE FILE_PATH="coverage/LeetCode$31_NextPermutation.coverage" NAME="31_NextPermutation Coverage Results" MODIFIED="1505056227239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$4_FindMedianSortedArrays.coverage" NAME="4_FindMedianSortedArrays Coverage Results" MODIFIED="1500177355374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$15_3Sum.coverage" NAME="15_3Sum Coverage Results" MODIFIED="1502376303012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$Sudoku.coverage" NAME="Sudoku Coverage Results" MODIFIED="1505225116635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
-    <SUITE FILE_PATH="coverage/LeetCode$instance41_50.coverage" NAME="instance41_50 Coverage Results" MODIFIED="1494511267762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
-    <SUITE FILE_PATH="coverage/LeetCode$10_RegularExpressionMatching.coverage" NAME="10_RegularExpressionMatching Coverage Results" MODIFIED="1501996441932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$14_LongestCommonPrefix.coverage" NAME="14_LongestCommonPrefix Coverage Results" MODIFIED="1502287574460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$instance1.coverage" NAME="instance1 Coverage Results" MODIFIED="1493305058217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
-    <SUITE FILE_PATH="coverage/LeetCode$instance21_30.coverage" NAME="instance21_30 Coverage Results" MODIFIED="1494125944252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
-    <SUITE FILE_PATH="coverage/LeetCode$1_TwoSum.coverage" NAME="1_TwoSum Coverage Results" MODIFIED="1499567107003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1499958470293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sortTest" />
-    <SUITE FILE_PATH="coverage/LeetCode$CsvTest.coverage" NAME="CsvTest Coverage Results" MODIFIED="1503930654455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
-    <SUITE FILE_PATH="coverage/LeetCode$24_SwapNodesInPairs.coverage" NAME="24_SwapNodesInPairs Coverage Results" MODIFIED="1504016895452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$21_MergeTwoSortedList.coverage" NAME="21_MergeTwoSortedList Coverage Results" MODIFIED="1503233252658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$29_DivideTwoIntegers.coverage" NAME="29_DivideTwoIntegers Coverage Results" MODIFIED="1504538647481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$8_StringToInteger.coverage" NAME="8_StringToInteger Coverage Results" MODIFIED="1501165004744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$23_MergeKSortedList.coverage" NAME="23_MergeKSortedList Coverage Results" MODIFIED="1503755113266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$20_ValidParentheses.coverage" NAME="20_ValidParentheses Coverage Results" MODIFIED="1503222858208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$28_ImplementStrStr.coverage" NAME="28_ImplementStrStr Coverage Results" MODIFIED="1504449147123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$32_LongestValidParentheses.coverage" NAME="32_LongestValidParentheses Coverage Results" MODIFIED="1510497805545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$GenerateUploadStatisticsFail.coverage" NAME="GenerateUploadStatisticsFail Coverage Results" MODIFIED="1494947546642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/LeetCode$Tmp_Task.coverage" NAME="Tmp_Task Coverage Results" MODIFIED="1504016053302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/company" />
-    <SUITE FILE_PATH="coverage/LeetCode$18_4Sum.coverage" NAME="18_4Sum Coverage Results" MODIFIED="1503154335109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$16_3SumClosest.coverage" NAME="16_3SumClosest Coverage Results" MODIFIED="1502721902563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$17_LetterCombinations.coverage" NAME="17_LetterCombinations Coverage Results" MODIFIED="1502806464299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$instant1.coverage" NAME="instant1 Coverage Results" MODIFIED="1493044695540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
     <SUITE FILE_PATH="coverage/LeetCode$30_SubstringWithConcatenationOfAllWords.coverage" NAME="30_SubstringWithConcatenationOfAllWords Coverage Results" MODIFIED="1505041181264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1492954633766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/LeetCode$StringTest.coverage" NAME="StringTest Coverage Results" MODIFIED="1503758862970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
-    <SUITE FILE_PATH="coverage/LeetCode$daily_extrace.coverage" NAME="daily_extrace Coverage Results" MODIFIED="1502719461961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/company" />
-    <SUITE FILE_PATH="coverage/LeetCode$instance31_40.coverage" NAME="instance31_40 Coverage Results" MODIFIED="1494249984968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
-    <SUITE FILE_PATH="coverage/LeetCode$7_ReverseInteger.coverage" NAME="7_ReverseInteger Coverage Results" MODIFIED="1500908838373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$22_GenerateParentheses.coverage" NAME="22_GenerateParentheses Coverage Results" MODIFIED="1503410357357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
-    <SUITE FILE_PATH="coverage/LeetCode$FileTest.coverage" NAME="FileTest Coverage Results" MODIFIED="1503837615559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
     <SUITE FILE_PATH="coverage/LeetCode$instance11_20.coverage" NAME="instance11_20 Coverage Results" MODIFIED="1493824342206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
-    <SUITE FILE_PATH="coverage/LeetCode$19_RemoveNthFromEnd.coverage" NAME="19_RemoveNthFromEnd Coverage Results" MODIFIED="1503198840207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
-    <SUITE FILE_PATH="coverage/LeetCode$27_RemoveElement.coverage" NAME="27_RemoveElement Coverage Results" MODIFIED="1504446919252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$44_WildcardMatching.coverage" NAME="44_WildcardMatching Coverage Results" MODIFIED="1519905995268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$10_RegularExpressionMatching.coverage" NAME="10_RegularExpressionMatching Coverage Results" MODIFIED="1519827190100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/1_20" />
+    <SUITE FILE_PATH="coverage/LeetCode$FlagProblem.coverage" NAME="FlagProblem Coverage Results" MODIFIED="1510840541557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$48_RotateImage.coverage" NAME="48_RotateImage Coverage Results" MODIFIED="1520153071355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$GenerateUploadStatisticsFail.coverage" NAME="GenerateUploadStatisticsFail Coverage Results" MODIFIED="1494947546642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/LeetCode$43_MultiplyStrings.coverage" NAME="43_MultiplyStrings Coverage Results" MODIFIED="1519740115534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$34_SearchForRange.coverage" NAME="34_SearchForRange Coverage Results" MODIFIED="1511445788474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$tmpPy.coverage" NAME="tmpPy Coverage Results" MODIFIED="1537109952004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$Tmp_Task.coverage" NAME="Tmp_Task Coverage Results" MODIFIED="1504016053302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/company" />
+    <SUITE FILE_PATH="coverage/LeetCode$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1492954633766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/LeetCode$67_AddBinary.coverage" NAME="67_AddBinary Coverage Results" MODIFIED="1520521733703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/string" />
+    <SUITE FILE_PATH="coverage/LeetCode$maxSubSeqSum.coverage" NAME="maxSubSeqSum Coverage Results" MODIFIED="1527691778040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataStruct" />
     <SUITE FILE_PATH="coverage/LeetCode$6_ZigZagConversion.coverage" NAME="6_ZigZagConversion Coverage Results" MODIFIED="1500787300260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$50_Pow.coverage" NAME="50_Pow Coverage Results" MODIFIED="1520168536624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$38_CountAndSay.coverage" NAME="38_CountAndSay Coverage Results" MODIFIED="1514121595761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$TestListNode.coverage" NAME="TestListNode Coverage Results" MODIFIED="1529594457212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$TestWorm.coverage" NAME="TestWorm Coverage Results" MODIFIED="1529127288338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worm" />
+    <SUITE FILE_PATH="coverage/LeetCode$31_NextPermutation.coverage" NAME="31_NextPermutation Coverage Results" MODIFIED="1505056227239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$BigNumMultiplication.coverage" NAME="BigNumMultiplication Coverage Results" MODIFIED="1525964763766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$QuickSort.coverage" NAME="QuickSort Coverage Results" MODIFIED="1521473701068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sortTest" />
+    <SUITE FILE_PATH="coverage/LeetCode$40_CombinationSumII.coverage" NAME="40_CombinationSumII Coverage Results" MODIFIED="1515419469964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$1_TwoSum.coverage" NAME="1_TwoSum Coverage Results" MODIFIED="1499567107003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$14_LongestCommonPrefix.coverage" NAME="14_LongestCommonPrefix Coverage Results" MODIFIED="1502287574460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$instance21_30.coverage" NAME="instance21_30 Coverage Results" MODIFIED="1494125944252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
+    <SUITE FILE_PATH="coverage/LeetCode$23_MergeKSortedList.coverage" NAME="23_MergeKSortedList Coverage Results" MODIFIED="1503755113266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$17_LetterCombinations.coverage" NAME="17_LetterCombinations Coverage Results" MODIFIED="1502806464299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$ListTest.coverage" NAME="ListTest Coverage Results" MODIFIED="1528536866230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$IntervalTest.coverage" NAME="IntervalTest Coverage Results" MODIFIED="1516028482393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$20_ValidParentheses.coverage" NAME="20_ValidParentheses Coverage Results" MODIFIED="1503222858208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$16_3SumClosest.coverage" NAME="16_3SumClosest Coverage Results" MODIFIED="1502721902563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$907_sumSubarrayMins.coverage" NAME="907_sumSubarrayMins Coverage Results" MODIFIED="1537114108174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/weekly" />
+    <SUITE FILE_PATH="coverage/LeetCode$FileTest.coverage" NAME="FileTest Coverage Results" MODIFIED="1503837615559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$TestCase.coverage" NAME="TestCase Coverage Results" MODIFIED="1537373426040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$24_SwapNodesInPairs.coverage" NAME="24_SwapNodesInPairs Coverage Results" MODIFIED="1504016895452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$15_3Sum.coverage" NAME="15_3Sum Coverage Results" MODIFIED="1525771537904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/1_20" />
+    <SUITE FILE_PATH="coverage/LeetCode$49_GroupAnagrams.coverage" NAME="49_GroupAnagrams Coverage Results" MODIFIED="1520167457389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$37_SudokuSolver.coverage" NAME="37_SudokuSolver Coverage Results" MODIFIED="1513434134135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$instance1.coverage" NAME="instance1 Coverage Results" MODIFIED="1493305058217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
+    <SUITE FILE_PATH="coverage/LeetCode$tree.coverage" NAME="tree Coverage Results" MODIFIED="1525770437075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataStruct" />
+    <SUITE FILE_PATH="coverage/LeetCode$21_MergeTwoSortedList.coverage" NAME="21_MergeTwoSortedList Coverage Results" MODIFIED="1503233252658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$35_SearchInsertPosition.coverage" NAME="35_SearchInsertPosition Coverage Results" MODIFIED="1511708433127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$45_JumpGame.coverage" NAME="45_JumpGame Coverage Results" MODIFIED="1520070957409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$ExcelTest.coverage" NAME="ExcelTest Coverage Results" MODIFIED="1503929081341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$18_4Sum.coverage" NAME="18_4Sum Coverage Results" MODIFIED="1503154335109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$33_SearchInRotatedSortedArray.coverage" NAME="33_SearchInRotatedSortedArray Coverage Results" MODIFIED="1511187650269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$27_RemoveElement.coverage" NAME="27_RemoveElement Coverage Results" MODIFIED="1504446919252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$19_RemoveNthFromEnd.coverage" NAME="19_RemoveNthFromEnd Coverage Results" MODIFIED="1503198840207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$instance41_50.coverage" NAME="instance41_50 Coverage Results" MODIFIED="1494511267762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
+    <SUITE FILE_PATH="coverage/LeetCode$2_AddTwoNumbers.coverage" NAME="2_AddTwoNumbers Coverage Results" MODIFIED="1499576211419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$Sudoku.coverage" NAME="Sudoku Coverage Results" MODIFIED="1505225116635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$47_PermutationsII.coverage" NAME="47_PermutationsII Coverage Results" MODIFIED="1520090796448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$36_ValidSudoku.coverage" NAME="36_ValidSudoku Coverage Results" MODIFIED="1522508579881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$7_ReverseInteger.coverage" NAME="7_ReverseInteger Coverage Results" MODIFIED="1500908838373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$32_LongestValidParentheses.coverage" NAME="32_LongestValidParentheses Coverage Results" MODIFIED="1510497805545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.coverage" NAME="BubbleSort Coverage Results" MODIFIED="1493219067468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sortTest" />
+    <SUITE FILE_PATH="coverage/LeetCode$8_StringToInteger.coverage" NAME="8_StringToInteger Coverage Results" MODIFIED="1501165004744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$22_GenerateParentheses.coverage" NAME="22_GenerateParentheses Coverage Results" MODIFIED="1530425939053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$29_DivideTwoIntegers.coverage" NAME="29_DivideTwoIntegers Coverage Results" MODIFIED="1504538647481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$numpyTest.coverage" NAME="numpyTest Coverage Results" MODIFIED="1528210999009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1514379167155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$TestTree.coverage" NAME="TestTree Coverage Results" MODIFIED="1531927468622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$3_LengthOfLongestSubstring.coverage" NAME="3_LengthOfLongestSubstring Coverage Results" MODIFIED="1525791107814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/1_20" />
+    <SUITE FILE_PATH="coverage/LeetCode$Excel.coverage" NAME="Excel Coverage Results" MODIFIED="1497102192738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excel" />
+    <SUITE FILE_PATH="coverage/LeetCode$daily_extrace.coverage" NAME="daily_extrace Coverage Results" MODIFIED="1502719461961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/company" />
+    <SUITE FILE_PATH="coverage/LeetCode$5_LongestPalindrome.coverage" NAME="5_LongestPalindrome Coverage Results" MODIFIED="1500729008283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$28_ImplementStrStr.coverage" NAME="28_ImplementStrStr Coverage Results" MODIFIED="1504449147123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$CsvTest.coverage" NAME="CsvTest Coverage Results" MODIFIED="1503930654455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$instance31_40.coverage" NAME="instance31_40 Coverage Results" MODIFIED="1494249984968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
+    <SUITE FILE_PATH="coverage/LeetCode$41_FirstMissingPositive.coverage" NAME="41_FirstMissingPositive Coverage Results" MODIFIED="1515768044038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$4_FindMedianSortedArrays.coverage" NAME="4_FindMedianSortedArrays Coverage Results" MODIFIED="1500177355374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode" />
+    <SUITE FILE_PATH="coverage/LeetCode$instant1.coverage" NAME="instant1 Coverage Results" MODIFIED="1493044695540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testInstance" />
+    <SUITE FILE_PATH="coverage/LeetCode$StringTest.coverage" NAME="StringTest Coverage Results" MODIFIED="1503758862970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testBase" />
+    <SUITE FILE_PATH="coverage/LeetCode$Https.coverage" NAME="Https Coverage Results" MODIFIED="1531229820232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worm" />
+    <SUITE FILE_PATH="coverage/LeetCode$46_Permutations.coverage" NAME="46_Permutations Coverage Results" MODIFIED="1520085126006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/41_60" />
+    <SUITE FILE_PATH="coverage/LeetCode$39_CombinationSum.coverage" NAME="39_CombinationSum Coverage Results" MODIFIED="1515078419444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetCode/21_40" />
+    <SUITE FILE_PATH="coverage/LeetCode$TestGet.coverage" NAME="TestGet Coverage Results" MODIFIED="1529422219464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worm" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-4950772">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="907" value="1" />
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1933" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1933" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="LeetCode" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="32_LongestValidParentheses.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetCode/weekly/907_sumSubarrayMins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="205">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="e#488#784#0" />
+                <element signature="e#891#899#1" />
+                <marker date="1537114108166" expanded="true" signature="783:1310" ph="..." />
+                <marker date="1537114108166" expanded="true" signature="2112:2287" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testBase/TestCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -125,57 +300,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/GenerateUploadStatisticsFail.py" />
-        <option value="$PROJECT_DIR$/excel/Excel.py" />
-        <option value="$PROJECT_DIR$/leetCode/TwoSum.py" />
-        <option value="$PROJECT_DIR$/leetCode/1_TwoSum.py" />
-        <option value="$PROJECT_DIR$/leetCode/2_AddTwoNumbers.py" />
-        <option value="$PROJECT_DIR$/leetCode/3_LongestSubstring.py" />
+        <option value="$PROJECT_DIR$/testBase/FlagProblem.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/SearchForRange.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/34_SearchForRange.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/35_SearchInsertPosition.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/37_SudokuSolver.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/38_CountAndSay.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/tmp.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/39_CombinationSum.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/40_CombinationSumII.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/42_TrappingRainWater.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/41_FirstMissingPositive.py" />
+        <option value="$PROJECT_DIR$/testBase/IntervalTest.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/43_MultiplyStrings.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/10_RegularExpressionMatching.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/44_WildcardMatching.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/45_JumpGame.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/46_Permutations.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/47_PermutationsII.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/48_RotateImage.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/49_GroupAnagrams.py" />
+        <option value="$PROJECT_DIR$/leetCode/41_60/50_Pow.py" />
+        <option value="$PROJECT_DIR$/leetCode/string/5_LongestPalindromicSubstring.py" />
+        <option value="$PROJECT_DIR$/leetCode/string/67_AddBinary.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/36_ValidSudoku.py" />
         <option value="$PROJECT_DIR$/sortTest/QuickSort.py" />
-        <option value="$PROJECT_DIR$/leetCode/3_LengthOfLongestSubstring.py" />
-        <option value="$PROJECT_DIR$/leetCode/5_LongestPalindrome.py" />
-        <option value="$PROJECT_DIR$/leetCode/6_ZigZagConversion.py" />
-        <option value="$PROJECT_DIR$/leetCode/7_ReverseInteger.py" />
-        <option value="$PROJECT_DIR$/leetCode/8_StringToInteger.py" />
-        <option value="$PROJECT_DIR$/leetCode/9_PalindromeNumber.py" />
-        <option value="$PROJECT_DIR$/leetCode/10_RegularExpressionMatching.py" />
-        <option value="$PROJECT_DIR$/leetCode/Test.py" />
-        <option value="$PROJECT_DIR$/leetCode/4_FindMedianSortedArrays.py" />
-        <option value="$PROJECT_DIR$/leetCode/11_ContainerWithMostWater.py" />
-        <option value="$PROJECT_DIR$/leetCode/12_IntegerToRoman.py" />
-        <option value="$PROJECT_DIR$/leetCode/13_RomanToInteger.py" />
-        <option value="$PROJECT_DIR$/leetCode/14_LongestCommonPrefix.py" />
-        <option value="$PROJECT_DIR$/leetCode/15_3Sum.py" />
-        <option value="$PROJECT_DIR$/company/daily_extrace.py" />
-        <option value="$PROJECT_DIR$/company/daily_extrace_bak.py" />
-        <option value="$PROJECT_DIR$/leetCode/16_3SumClosest.py" />
-        <option value="$PROJECT_DIR$/leetCode/17_LetterCombinations.py" />
-        <option value="$PROJECT_DIR$/leetCode/18_4Sum.py" />
-        <option value="$PROJECT_DIR$/leetCode/19_RemoveNthFromEnd.py" />
-        <option value="$PROJECT_DIR$/leetCode/20_ValidParentheses.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/21_MergeTwoSortedList.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/23_MergeKSortedList.py" />
-        <option value="$PROJECT_DIR$/testBase/StringTest.py" />
-        <option value="$PROJECT_DIR$/testBase/FileTest.py" />
-        <option value="$PROJECT_DIR$/testBase/ExcelTest.py" />
-        <option value="$PROJECT_DIR$/testBase/CsvTest.py" />
-        <option value="$PROJECT_DIR$/company/Tmp_Task.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/24_SwapNodesInPairs.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/25_ReverseNodesInKGroup.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/25_ReverseNodesInK-Group.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/26_RemoveDuplicatesFromSortedArray.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/27_RemoveElement.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/29_DivideTwoInteger.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/28_ImplementStrStr.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/29_DivideTwoIntegers.py" />
-        <option value="$PROJECT_DIR$/testInstance/TestCase.py" />
-        <option value="$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py" />
+        <option value="$PROJECT_DIR$/dataStruct/tree.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/15_3Sum.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/3_LengthOfLongestSubstring.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/7_ReverseInteger.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/20_ValidParentheses.py" />
+        <option value="$PROJECT_DIR$/testBase/BigNumMultiplication.py" />
+        <option value="$PROJECT_DIR$/dataStruct/maxSubSeqSum.py" />
+        <option value="$PROJECT_DIR$/testBase/numpyTest.py" />
         <option value="$PROJECT_DIR$/testBase/ListTest.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/31_NextPermutation.py" />
-        <option value="$PROJECT_DIR$/testBase/Sudoku.py" />
-        <option value="$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py" />
+        <option value="$PROJECT_DIR$/testInstance/TestCase.py" />
+        <option value="$PROJECT_DIR$/worm/TestWorm.py" />
+        <option value="$PROJECT_DIR$/worm/TestGet.py" />
+        <option value="$PROJECT_DIR$/testBase/TestLeetCode.py" />
+        <option value="$PROJECT_DIR$/testBase/TestListNode.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py" />
+        <option value="$PROJECT_DIR$/worm/Https.py" />
+        <option value="$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/33_SearchInRotatedSortedArray.py" />
+        <option value="$PROJECT_DIR$/leetCode/21_40/28_ImplementStrStr.py" />
+        <option value="$PROJECT_DIR$/testBase/TestTree.py" />
+        <option value="$PROJECT_DIR$/testBase/tmpPy.py" />
+        <option value="$PROJECT_DIR$/leetCode/weekly/907" />
+        <option value="$PROJECT_DIR$/company/daily_extrace.py" />
+        <option value="$PROJECT_DIR$/leetCode/weekly/907_sumSubarrayMins.py" />
+        <option value="$PROJECT_DIR$/testBase/TestCase.py" />
       </list>
     </option>
   </component>
@@ -186,110 +361,63 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="822" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="LeetCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="LeetCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="testBase">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="LeetCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="leetCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="LeetCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="leetCode">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="21_40">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="testBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/ideaWorkspace/python/LeetCode/leetCode/1_20/20_ValidParentheses.py&#10;set&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -297,195 +425,19 @@
       <recent name="G:\ideaWorkspace\LeetCode\sortTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.32_LongestValidParentheses">
-    <configuration default="false" name="29_DivideTwoIntegers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/21_40" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/21_40/29_DivideTwoIntegers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="30_SubstringWithConcatenationOfAllWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/21_40" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="31_NextPermutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/21_40" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/21_40/31_NextPermutation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="32_LongestValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/21_40" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testBase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testBase/Sudoku.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="LeetCode" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TestCase">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -506,110 +458,139 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="907_sumSubarrayMins" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetCode/weekly" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetCode/weekly/907_sumSubarrayMins.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration name="Https" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/worm" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/worm/Https.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
+    <configuration name="TestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testBase" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testBase/TestCase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
+    <configuration name="TestTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testBase" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testBase/TestTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.29_DivideTwoIntegers" />
-      <item index="1" class="java.lang.String" itemvalue="Python.30_SubstringWithConcatenationOfAllWords" />
-      <item index="2" class="java.lang.String" itemvalue="Python.31_NextPermutation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.32_LongestValidParentheses" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Sudoku" />
+    <configuration name="tmpPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testBase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testBase/tmpPy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.TestTree" />
+      <item itemvalue="Python.tmpPy" />
+      <item itemvalue="Python.Https" />
+      <item itemvalue="Python.TestCase" />
+      <item itemvalue="Python.907_sumSubarrayMins" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.32_LongestValidParentheses" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Sudoku" />
-        <item index="2" class="java.lang.String" itemvalue="Python.31_NextPermutation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.30_SubstringWithConcatenationOfAllWords" />
-        <item index="4" class="java.lang.String" itemvalue="Python.29_DivideTwoIntegers" />
+      <list>
+        <item itemvalue="Python.TestCase" />
+        <item itemvalue="Python.907_sumSubarrayMins" />
+        <item itemvalue="Python.tmpPy" />
+        <item itemvalue="Python.TestTree" />
+        <item itemvalue="Python.Https" />
       </list>
     </recent_temporary>
   </component>
@@ -617,9 +598,6 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -738,7 +716,77 @@
       <option name="project" value="LOCAL" />
       <updated>1504539408507</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="leetcode 30~32">
+      <created>1510669102031</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1510669102031</updated>
+    </task>
+    <task id="LOCAL-00017" summary="leetcode 33">
+      <created>1511188039228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1511188039228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="leetcode 34-40">
+      <created>1515334610365</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515334610365</updated>
+    </task>
+    <task id="LOCAL-00019" summary="leetcode 40 dp pass">
+      <created>1515420364382</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1515420364382</updated>
+    </task>
+    <task id="LOCAL-00020" summary="新增快排的一种方法">
+      <created>1516028449636</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516028449636</updated>
+    </task>
+    <task id="LOCAL-00021" summary="leetcode 41">
+      <created>1516028514414</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1516028514414</updated>
+    </task>
+    <task id="LOCAL-00022" summary="quickSort 改进">
+      <created>1516194081458</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1516194081458</updated>
+    </task>
+    <task id="LOCAL-00023" summary="43">
+      <created>1519740454413</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1519740454413</updated>
+    </task>
+    <task id="LOCAL-00024" summary="10 add note">
+      <created>1519909629814</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1519909629814</updated>
+    </task>
+    <task id="LOCAL-00025" summary="leetcode 44~50&#10;">
+      <created>1520170902661</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1520170902661</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -754,65 +802,70 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <layout>
-      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49785638" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40423033" sideWeight="0.50321543" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49785638" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39130434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2867215" sideWeight="0.49678457" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4958872" visible="true" weight="0.22174536" />
+      <window_info id="Structure" order="1" weight="0.24973205" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5041128" side_tool="true" weight="0.24383709" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.40775558" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49678457" weight="0.37199435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42998585" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49785638" weight="0.32902467" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49785638" weight="0.46651" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32902467" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50321543" side_tool="true" weight="0.40423033" />
+      <window_info anchor="bottom" id="SBT Console" order="11" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32902467" />
+      <window_info anchor="right" id="SciView" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" weight="0.329582" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32904148" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5021436" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37367803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49785638" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.49785638" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3654524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24222937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24222937" />
+      <window_info id="Structure" order="1" weight="0.24973205" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3654524" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37367803" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49785638" weight="0.32902467" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021436" side_tool="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="SBT Console" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49785638" weight="0.32902467" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32902467" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32902467" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.329582" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -858,16 +911,21 @@
     <MESSAGE value="python基础语法示例" />
     <MESSAGE value="update testBase" />
     <MESSAGE value="leetcode 24~30" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 24~30" />
+    <MESSAGE value="leetcode 30~32" />
+    <MESSAGE value="leetcode 33" />
+    <MESSAGE value="leetcode 34-40" />
+    <MESSAGE value="leetcode 40 dp pass" />
+    <MESSAGE value="新增快排的一种方法" />
+    <MESSAGE value="leetcode 41" />
+    <MESSAGE value="quickSort 改进" />
+    <MESSAGE value="43" />
+    <MESSAGE value="10 add note" />
+    <MESSAGE value="leetcode 44~50&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 44~50&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py</url>
           <line>46</line>
@@ -887,11 +945,6 @@
           <url>file://$PROJECT_DIR$/leetCode/1_20/19_RemoveNthFromEnd.py</url>
           <line>28</line>
           <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py</url>
@@ -928,7 +981,225 @@
           <line>49</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/34_SearchForRange.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/35_SearchInsertPosition.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/36_ValidSudoku.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/36_ValidSudoku.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/36_ValidSudoku.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/37_SudokuSolver.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/37_SudokuSolver.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/38_CountAndSay.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/40_CombinationSumII.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/40_CombinationSumII.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/40_CombinationSumII.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/41_60/41_FirstMissingPositive.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/41_60/41_FirstMissingPositive.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/IntervalTest.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/1_20/10_RegularExpressionMatching.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/1_20/10_RegularExpressionMatching.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/41_60/44_WildcardMatching.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/41_60/48_RotateImage.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/41_60/49_GroupAnagrams.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/sortTest/QuickSort.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/sortTest/QuickSort.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/dataStruct/tree.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/BigNumMultiplication.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/dataStruct/maxSubSeqSum.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testInstance/TestCase.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testInstance/TestCase.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/ListTest.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testInstance/TestCase.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testInstance/TestCase.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestListNode.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestTree.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestTree.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/tmpPy.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/tmpPy.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestTree.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestTree.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestTree.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestCase.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestCase.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/tmpPy.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/tmpPy.py</url>
+          <line>234</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testBase/TestCase.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -936,390 +1207,272 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="137" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/8_StringToInteger.py">
+    <entry file="file://$PROJECT_DIR$/leetCode/1_20/18_4Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/7_ReverseInteger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/6_ZigZagConversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/4_FindMedianSortedArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/3_LengthOfLongestSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/9_PalindromeNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="2134" column="0" selection-start-line="2134" selection-start-column="0" selection-end-line="2134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/daily_extrace_bak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excel/Excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Program Files (x86)/JetBrains/.PyCharm/system/python_stubs/1713590963/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="2024" column="0" selection-start-line="2024" selection-start-column="0" selection-end-line="2024" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testBase/StringTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testBase/FileTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#136#517#0" expanded="false" />
-            <element signature="e#544#832#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="530" column="39" selection-start-line="530" selection-start-column="39" selection-end-line="530" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/site-packages/xlwt/CompoundDoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="110" column="4" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Program Files (x86)/JetBrains/.PyCharm/system/python_stubs/1713590963/_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="359" column="17" selection-start-line="359" selection-start-column="15" selection-end-line="359" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/site-packages/xlrd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="296" column="55" selection-start-line="296" selection-start-column="50" selection-end-line="296" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testBase/CsvTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testBase/ExcelTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Python27/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="479" column="0" selection-start-line="479" selection-start-column="0" selection-end-line="479" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/21_MergeTwoSortedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testInstance/TestCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/23_MergeKSortedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/24_SwapNodesInPairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/25_ReverseNodesInK-Group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/26_RemoveDuplicatesFromSortedArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/27_RemoveElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/28_ImplementStrStr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/29_DivideTwoIntegers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetCode/1_20/19_RemoveNthFromEnd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#348#1" expanded="false" />
-            <element signature="e#378#448#0" expanded="false" />
-            <element signature="e#503#773#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/18_4Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/17_LetterCombinations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/16_3SumClosest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/15_3Sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1150#25229#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#174#580#0" expanded="false" />
-            <element signature="e#619#856#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/13_RomanToInteger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/12_IntegerToRoman.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/11_ContainerWithMostWater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/1_20/10_RegularExpressionMatching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/30_SubstringWithConcatenationOfAllWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#418#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#263#1" expanded="false" />
-          </folding>
-        </state>
+        <state relative-caret-position="-589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetCode/1_20/20_ValidParentheses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="550">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/Tmp_Task.py">
+    <entry file="file://$PROJECT_DIR$/sortTest/SelectSort.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/IntervalTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="242">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#55#131#1" />
+            <element signature="e#171#649#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testBase/Sudoku.py">
+    <entry file="file://$PROJECT_DIR$/sortTest/BubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/string/67_AddBinary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="-215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/21_40/21_MergeTwoSortedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/21_40/39_CombinationSum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/21_40/23_MergeKSortedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/CsvTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/1_20/11_ContainerWithMostWater.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/41_60/43_MultiplyStrings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/BigNumMultiplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testBase/ListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="17" />
+        <state relative-caret-position="814">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/31_NextPermutation.py">
+    <entry file="file://$PROJECT_DIR$/testBase/numpyTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode/21_40/32_LongestValidParentheses.py">
+    <entry file="file://$PROJECT_DIR$/leetCode/41_60/49_GroupAnagrams.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/1_20/3_LengthOfLongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/1_20/5_LongestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/bs4/__init__.py" />
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/urllib/parse.py" />
+    <entry file="file://$PROJECT_DIR$/worm/TestGet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worm/TestWorm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/TestListNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/21_40/22_GenerateParentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/requests/api.py" />
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/requests/__init__.py" />
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/urllib3/__init__.py" />
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/urllib/__init__.py" />
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/json/__init__.py" />
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/urllib/request.py" />
+    <entry file="file://$PROJECT_DIR$/leetCode/41_60/48_RotateImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="83" column="32" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/1_20/14_LongestCommonPrefix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/21_40/33_SearchInRotatedSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worm/Https.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Users/le/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py" />
+    <entry file="file://F:/Program Files (x86)/JetBrains/.PyCharm/system/python_stubs/-2120544526/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/leetCode/string/5_LongestPalindromicSubstring.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/21_40/28_ImplementStrStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/FlagProblem.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testInstance/TestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/TestTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/StringTest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortTest/QuickSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/weekly/907">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="29999" column="4" selection-start-line="29999" selection-start-column="4" selection-end-line="29999" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/tmpPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStruct/maxSubSeqSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStruct/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/daily_extrace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#77#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/weekly/907_sumSubarrayMins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#488#784#0" />
+            <element signature="e#891#899#1" />
+            <marker date="1537114108166" expanded="true" signature="783:1310" ph="..." />
+            <marker date="1537114108166" expanded="true" signature="2112:2287" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testBase/TestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
