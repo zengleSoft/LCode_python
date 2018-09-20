@@ -48,7 +48,7 @@ def isMatch(s, p):
                 dp[i+1][j+1]=dp[i][j]
             elif p[j]=='*':
                 # 如果*前面的字符和s当前字符不相等   此时 X* 表示0个x能否匹配取决与X*前面的p能否和当前s匹配
-                if s[i]<>p[j-1]:
+                if s[i]!=p[j-1]:
                     dp[i+1][j+1] = dp[i+1][j-1]
                 if s[i]==p[j-1] or p[j-1]=='.':
                     # 三个表达式分表表示  X* 代表 0个x  1个x   多个x     多个x时只要判断当前p和s之前的能匹配就行
@@ -59,4 +59,4 @@ def isMatch(s, p):
 
 
 if __name__ == '__main__':
-    print isMatch('','')
+    print (isMatch('',''))
