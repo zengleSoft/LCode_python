@@ -48,22 +48,27 @@ class RandomizedSet:
             return self.random_list[i]
 
 
-def mySqrt(x):
-    start, end, cur = 0, x, x
-    while cur > 0:
-        tmp = cur ** 2
-        if tmp > x:
-            end = cur
-        elif tmp == x:
-            return int(cur)
-        else:
-            start = cur
-        cur2 = start + (end - start) / 2
-        if cur != cur2 and int(cur) == int(cur2):
-            return int(cur2)
-        else:
-            cur = cur2
-    return x
+def divide(dividend, divisor):
+    """
+    :type dividend: int
+    :type divisor: int
+    :rtype: int
+    """
+    flag = 1 if (dividend > 0 and divisor > 0) or (dividend < 0 and divisor < 0) else -1
+    dividend, tmp_divisor, divisor = abs(dividend), abs(divisor), abs(divisor)
+    res = 0
+    span = 1
+    while dividend >= divisor or span > 1:
+        if tmp_divisor > dividend:
+            tmp_divisor -= divisor
+            span -= 1
+            continue
+        dividend -= tmp_divisor
+        res += span
+        tmp_divisor += divisor
+        span += 1
+    res = res if flag > 0 else -res
+    return res
 
 if __name__ == '__main__':
-    print(mySqrt(5))
+    print(divide(-2147483648,-1))
